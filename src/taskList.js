@@ -5,6 +5,6 @@ class TaskList {
   }
 
   tasks() {
-    return store.tasks.filter(task => task.taskListId === this.id)
+    return store.tasks.filter(task => task.taskListId === this.id);
   }
 }
