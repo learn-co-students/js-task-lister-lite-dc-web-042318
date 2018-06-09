@@ -11,15 +11,19 @@ function findTaskDiv() {
   return document.getElementById('tasks');
 }
 
+function taskContentBox() {
+  return document.getElementById('new-task-description');
+}
+
+function createTaskList() {
+  return new TaskList();
+}
+
 function refresh() {
   findTaskDiv().innerHTML = ''
   store.tasks.forEach(task =>
     findTaskDiv().innerHTML += `<li>${task.content} <button data-id=${task.id}>x</button></li>`);
   deleteTask();
-}
-
-function taskContentBox() {
-  return document.getElementById('new-task-description');
 }
 
 function deleteTask() {
@@ -31,10 +35,6 @@ function deleteTask() {
       refresh();
     });
   });
-}
-
-function createTaskList() {
-  return new TaskList();
 }
 
 function addTask(list) {
