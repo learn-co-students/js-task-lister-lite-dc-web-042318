@@ -6,15 +6,13 @@ Today you'll be creating a simple to do list application that will focus on DOM 
 
 Check out the [working demo][example]
 
-
 ### Instructions:
 
 Instead of relying on unit tests, this lab is deliverable driven. You will be responsible for asserting your solution works as intended by testing the behavior visually in the browser.
 
-1. Fork and clone this repository
-2. Open `index.html` in Chrome (Tip: you can use `open index.html` in bash and, as long as Chrome is your default application for opening `.html` files, it will automatically open the file)
-3. Put you JavaScript knowledge to the test and work your way through the deliverables
-
+1.  Fork and clone this repository
+2.  Open `index.html` in Chrome (Tip: you can use `open index.html` in bash and, as long as Chrome is your default application for opening `.html` files, it will automatically open the file)
+3.  Put you JavaScript knowledge to the test and work your way through the deliverables
 
 ### Deliverables:
 
@@ -22,8 +20,7 @@ Instead of relying on unit tests, this lab is deliverable driven. You will be re
 - users should be able to click some form of a submit button
 - the task string that the user provided should appear on the DOM after the submit button has been activated
 
-**Note:** [While the example][example] shows one working application of TaskLister Lite™️, yours can (and is encouraged to!) look however you like. 
-
+**Note:** [While the example][example] shows one working application of TaskLister Lite™️, yours can (and is encouraged to!) look however you like.
 
 ### Stretch Deliverables:
 
